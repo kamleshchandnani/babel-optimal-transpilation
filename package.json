@@ -83,6 +83,7 @@
     "build-4":
       "STEP=4 BABEL_ENV=cust NODE_ENV=production webpack --display-error-details --config ./config/webpack.config.js --progress --profile --colors",
     "build-5":
-      "STEP=5 BABEL_ENV=cust NODE_ENV=production webpack --display-error-details --config ./config/webpack.config.js --progress --profile --colors"
+      "STEP=5 BABEL_ENV=cust NODE_ENV=production webpack --display-error-details --config ./config/webpack.config.js --progress --profile --colors",
+    "compare": "node compare.js"
   }
 }
